@@ -17,16 +17,12 @@ public class MainAset {
         manajemen.tampilkanSemuaAset();
 
         // iii. Hapus salah satu aset menggunakan ID yang valid
-        System.out.println();
-        System.out.println("-----------------------------------------------");
         System.out.println("\n--------- Menghapus aset (ID: BA03) ---------");
         manajemen.hapusAset("BA03");
 
 
-        // iv. Tampilkan kembali semua aset
-        System.out.println();
-        System.out.println("-------------------------------------------------");
-        System.out.println("\n--------- Data Aset IT Setelah Delete ---------");
+        // iv. Tampilkan kembali semua aset untuk membuktikan penghapusan berhasil
+        System.out.println("\n--------- Data Aset IT Setelah Penghapusan ---------");
         manajemen.tampilkanSemuaAset();
     }
 }
